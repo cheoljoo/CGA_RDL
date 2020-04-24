@@ -1,4 +1,8 @@
-add 1_csv.pl to run without XLSX perl package
+add in($a,$b) sub-function : is $b in $a?
+
+200424--------------
+- add in sub-function
+- IFEQUAL("+<+in($modulename,tidl)+>+","")
 
 200401--------------
 you can run with  csv file instead of xlsx file.

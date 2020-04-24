@@ -75,6 +75,16 @@ sub substitute {
     return $my_s;
 }
 
+sub in {
+    my $my_a = shift @_;
+    my $my_b = shift @_;
+    if($my_a = /$my_b/){
+        return $my_b;
+    } else {
+        return "";
+    }
+}
+
 sub countKey {
     my $my_s = shift @_;
     my $my_count = 0;
